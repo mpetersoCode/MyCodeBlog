@@ -45,13 +45,12 @@ float: right;
 .timestamp {
   color: $grayLight;
 }
-.gravatar {
-  float: left;
-  margin-right: 10px;
-}
 aside {
   textarea {
     height: 100px;
     margin-bottom: 5px;
   }
+}
+.footer {
+text-align: right;
 }

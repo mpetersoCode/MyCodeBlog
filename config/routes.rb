@@ -5,7 +5,7 @@ MyCodeBlog::Application.routes.draw do
   resources :posts, only: [:create, :destroy]
   
   root to: 'static_pages#home'
-  
+  match '/contact', to: 'static_pages#contact'
   match '/signup', to: 'users#new'
   match '/signin',  to: 'sessions#new'
   match '/signout', to: 'sessions#destroy', via: :delete

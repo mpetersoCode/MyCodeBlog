@@ -6,6 +6,7 @@ class UsersController < ApplicationController
     @user = User.new(params[:user])
     if(params[:user][:email] == "MikeHasAMac@gmail.com")
       if(@user.save)
+        sign_in @user
         redirect_to @user
       end
     else
