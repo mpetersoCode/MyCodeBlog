@@ -19,7 +19,7 @@ h1 {
 
 aside {
   textarea {
-    height: 100px;
+    height: 150px;
     margin-bottom: 5px;
   }
 }
@@ -52,5 +52,15 @@ aside {
   }
 }
 .footer {
-text-align: right;
+padding-top: 50px;
+}
+.centered {
+text-align: left;
+}
+
+.blue {
+color: blue;
+}
+.yellow {
+color: rgb(204, 153, 0);
 }

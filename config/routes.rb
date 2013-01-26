@@ -6,6 +6,8 @@ MyCodeBlog::Application.routes.draw do
   
   root to: 'static_pages#home'
   match '/contact', to: 'static_pages#contact'
+  match '/resume', to: 'static_pages#resume'
+  
   match '/signup', to: 'users#new'
   match '/signin',  to: 'sessions#new'
   match '/signout', to: 'sessions#destroy', via: :delete
